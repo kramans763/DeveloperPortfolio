@@ -4,6 +4,10 @@
     top: 15%;
     left: 38%;
 }
+.developer{
+    color:aqua;
+    margin-left: 50px;
+}
 .image{
     height: 100vh;
     background-image: url("aman1.jpg");
