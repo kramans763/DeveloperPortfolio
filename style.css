@@ -4,6 +4,10 @@
     top: 15%;
     left: 38%;
 }
+.name{
+    margin-left: 5px;
+    color: white;
+}
 .developer{
     color:aqua;
     margin-left: 50px;
