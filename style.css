@@ -1,3 +1,12 @@
+body{
+    font-size: 16px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 .intro-text{
     font-weight: 400;
     position: absolute;
