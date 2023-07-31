@@ -1,47 +1,267 @@
-body{
-    font-size: 16px;
-}
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
+* {
+    scroll-behavior: auto;
   }
-}
-
-.intro-text{
-    font-weight: 400;
-    position: absolute;
-    top: 15%;
-    left: 38%;
-}
-.name{
-    margin-left: 5px;
-    color: white;
-}
-.developer{
-    color:aqua;
-    margin-left: 50px;
-}
-.image{
-    height: 100vh;
-    background-image: url("aman1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.blackBox{
+  
+body{
     background-color: black;
-    color: white;
-    text-align: center;
-    font-size :80px
-    font-weight: 400;
+    color:beige;
+}
+.logo{
+    height:50px;
+    width:50px;
+    border: 2px solid whitesmoke;
+    margin-left:70px;
 }
 
-.contactMe{
-    background-color: green;
-    text-align: center;
+.logo img{
+    width:100%;
+    height:100%;
+    
 }
-.aboutMe{
-    background-color: red;
-    text-align: center;
-    margin-top: 10px;
+.logo-name{
+    margin-left: 10px;
+    font-style: cursive;
+    font-weight: 800;
+    font-size: larger;
+
+    color:antiquewhite;
 }
+
+
+
+.aboutme{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+    
+}
+.aboutme:hover{
+    
+    border:1px solid white;
+    box-shadow: 10px 5px 5px blue;
+    transform: scale(1.04) ;
+    transition: 1s;
+    
+}
+.skill{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+   
+}
+.skill:hover{
+    cursor:pointer;
+    border:1px solid white;
+    box-shadow: 10px 5px 5px blue;
+    transform: scale(1.04) ;
+    transition: 1s;
+
+
+}
+.skill img:hover{
+    transform: scale(1.04) rotateY(360deg);
+    transition: 1.5s;
+    border:2px solid red;
+    border-radius: 20px;
+    
+}
+.training{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+    color:white;
+    
+}
+
+.training-img img{
+    max-width:18rem;
+    max-height:14rem;
+    box-shadow: 0 12px 12px -6px blue;
+    padding:0;
+
+    
+}
+.internship-img{
+    max-width:18rem;
+    max-height:14rem;
+    box-shadow: 0 12px 12px -6px blue;
+    padding:0;
+}
+.boxshadow{
+    box-shadow: 0 12px 12px -6px blue;
+}
+.taining-text{
+    line-height: 5px;
+}
+.training:hover{
+    
+    border:1px solid white;
+    box-shadow: 10px 5px 5px blue;
+    transform: scale(1.04) ;
+    transition: 1s;
+    
+}
+
+.internship{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 20px;
+    font-family :Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+.internship:hover{
+    
+    border:1px solid white;
+    box-shadow: 10px 5px 5px blue;
+    transform: scale(1.04) ;
+    transition: 1s;
+
+}
+
+.project{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+.project:hover{
+    
+    border:1px solid white;
+    box-shadow: 10px 5px 5px blue;
+    transform: scale(1.04) ;
+    transition: 1s;
+}
+.project-hover:hover{
+    transform: scale(1.02) ;
+    transition: 1.02s;
+}
+
+
+.skilldiv{
+    
+    display:flex;
+    flex-wrap: nowrap;
+    overflow:auto;
+  
+  
+}
+.icon{
+    font-weight: 200;
+    font-size: x-large;
+    color:darkturquoise;
+}
+.icon:hover{
+    transform: scale(1.04) rotateY(360deg) ;
+    color:cyan;
+
+}
+.aboutme{
+    display:flex;
+    
+    flex-direction: row;
+}
+.aboutme-img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading-text{
+    font-family: URW Chancery L, cursive;
+    font-size: xx-large;
+    font-weight: 600;
+    color:bisque;
+}
+.bg-color{
+    background-color: black;
+    color:bisque;
+}
+
+.hobby{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 20px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+    
+}
+.hobby:hover{
+    
+    border:1px solid white;
+    box-shadow: 10px 5px 5px blue;
+    transform: scale(1.04) ;
+    transition: 1s;
+
+}
+
+.hobby img:hover{
+    
+        transform: scale(1.04);
+        transition: 1s;
+        box-shadow: 10px 5px 5px yellow;
+        border:2px solid red;
+        border-radius: 20px;
+    }
+.icon-section{
+    padding:10px;
+    background-color: black;
+    border-radius: 20px;
+}
+.footer{
+    background-color: black;
+    color:deeppink;
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+    border-radius: 20px;
+    
+}
+.button-section{
+    background-color: yellow;
+    color:black;
+    border-radius: 20px;
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+    border:1px solid red;
+    transition: 1s;
+}
+
+.button-section:hover{
+    background-color: yellow;
+    color:black;
+    box-shadow: 5px 5px 5px red;
+    border:1px solid red;
+}
+
+.heading-text:after{
+    content:"";
+    display:block;
+    height: 2px;
+    width:7%;
+    background-color:greenyellow;
+    margin:0 auto;
+
+
+
+}
+.aboutme img{
+    box-shadow: 8px 8px 8px red;
+}
+
+
+
+
+

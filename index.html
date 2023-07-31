@@ -1,120 +1,336 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aman Kumar Singh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Portfolio Aman</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#About">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact</a>
-              </li>
-            </ul>
+  
+  <div class="nabbar">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Aman</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="color: deeppink;">Social Profiles:</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-        </div>
-      </nav>
-
-      <!-- Hero Section-->
-
-      <section class="image" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col intro-text">
-                  <h2 class="name">Hi, I am Aman Kumar Singh</h2>
-                  <h1 class="developer">FULL STACK DEVELOPER</h1>
-                </div>
+          <div class="offcanvas-body">
+            <div class="d-flex justify-content-around icon-section" id="social-accounts">
+        
+              <a href="https://www.linkedin.com/in/amanksingh97089/" target="_blank"><i class="fa fa-linkedin icon"></i></a>
+              <a href="https://github.com/kramans763" target="_blank"><i class="fa fa-github icon"></i></a>
+              <a href=""><i class="fa fa-instagram icon"></i></a>
+              <a href=""><i class="fa fa-facebook icon"></i></a>
             </div>
-        </div>
-      </section>
-
-      <!-- End of hero section-->
-
-    <!-- .....Black -box section........  -->
-
-      <section class="blackBox" >
-        <div class="container-fluid">
-            <h3>Work, I can do for you</h3>
-        </div>
-      </section>
-    <!-- .....End of Black -box section........  -->
-
-    <!-- .....Service section........  -->
-
-    <section class="service" id="Services">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-4 mt-3">
-            <div class="card" style="width: 18rem;">
-              <img src="web.jpg" class="card-img-top" alt="web">
-              <div class="card-body">
-                <h5 class="card-title">Web Development</h5>
-                <p class="card-text">Web development refers to the process of building and maintaining websites and web applications. It involves various tasks such as designing, coding, testing, and deploying websites to be accessible via the internet. Web developers use programming languages, frameworks, and tools to create interactive and dynamic websites that cater to specific functionalities and user experiences.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mt-3">
-            <div class="card" style="width: 18rem;">
-              <img src="app.jpg" class="card-img-top" alt="app">
-              <div class="card-body">
-                <h5 class="card-title">App Development</h5>
-                <p class="card-text">App development refers to the process of creating applications, commonly referred to as "apps," that run on mobile devices (such as smartphones and tablets) or other platforms like desktop computers. These apps can serve a variety of purposes, including entertainment, productivity, communication, education, and more.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mt-3">
-            <div class="card" style="width: 18rem;">
-              <img src="ui.jpg" class="card-img-top" alt="ui">
-              <div class="card-body">
-                <h5 class="card-title">UI UX Design</h5>
-                <p class="card-text">UI (User Interface) and UX (User Experience) design are two interconnected but distinct disciplines in the field of design, particularly in the realm of software development, web design, and app development.
-                  UI design focuses on the visual elements of a product, such as websites, mobile applications, software interfaces, etc. 
-                  UX design is focused on creating a seamless and enjoyable experience for users as they interact with a product.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
-    </section>
+    </nav>
+  </div>  
+  
 
-    <!-- .....end of Service section........  -->
+    <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url('aman1.jpg'); height: 90vh; background-size:cover; background-repeat: no-repeat; ">
+             <div>
+                  <div class="text-center">
+                    <img src="logo.jpg" class="rounded-circle" alt="...">
+                  </div>
+                  <h1 style="color:white">Aman Kumar Singh</h1>
+                  <h3 style="color:aliceblue">Software Developer</h3>
+             </div>
+    </div>
 
-    <!-- .....Bottom section........  --> 
-    <section >
-       <div class="d-flex flex-row justify-content-between flex-wrap mt-4">
-        <div id="Contact" class="contactMe p -5">
-          <h2>Contact Me</h2>
-          <p>kramans763@gmail.com <br> 8968077848</p>
+
+  
+<section id="abouttttmee" class="m-2 mt-4">
+  <div class="mt-3">
+    <h2><p style="text-align: center;"class="heading-text" >About Me</p></h2>
+  </div>
+  <div class="aboutme container mt-2" >
+    <div class="card mb-3 bg-color project-hover">
+      <div class="row g-0">
+        <div class="col-md-4 col-lg-3 col-sm-11 col-11 d-flex justify-content-center align-items-center flex-wrap training-img p-0">
+          <img src="web.jpg" class="img-fluid rounded p-0" alt="...">
         </div>
-        <div id="About" class="aboutMe p -5">
-          <h2>About Me</h2>
-          <p>I am learning web development</p>
+        <div class="col-md-8 col-lg-9 col-sm-11 col-11">
+          <div class="card-body p-2 p-lg-4">
+    <div>
+      <p>Hi I am <span style="font-weight: 800;">Aman Kumar Singh</span>, I am a Software Engineer. I have pursued B.Tech from Guru Nanak Dev Engineering College Ludhiana,Punjab in Computer Science Branch. I have done my internship at Deloitte as Abap Developer. </p>   
+      <p>As I progress in my Full Stack Web Development journey, I aspire to contribute my skills to exciting and impactful projects. Whether it's building scalable web applications, working on cutting-edge technologies, or becoming part of a dynamic development team, I'm ready to embrace every opportunity that comes my way.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+     
+  </div>
+</section>
+
+
+
+
+
+<section id="trainings">
+  <div class="container training mt-3">
+    <div class="heading">
+      <h2 style="text-align: center; color:bisque;" class="heading-text mb-2" > 
+          Training
+      </h2>
+    </div>
+
+    <div class="card mb-3 bg-color project-hover">
+      <div class="row g-0">
+        <div class="col-md-4 col-lg-3 col-sm-11 col-11 d-flex justify-content-center align-items-center flex-wrap training-img p-0">
+          <img src="jspider_.jpg" class="img-fluid rounded p-0" alt="...">
         </div>
-       </div>
-    </section> 
-    <!-- ..... End of Bottom section........  --> 
- 
+        <div class="col-md-8 col-lg-9 col-sm-11 col-11">
+          <div class="card-body p-2 p-lg-4">
+            <h5 class="card-title p-3" style="color:whitesmoke; text-align: center; font-weight: 700; font-size:x-large;">Java Full Stack Development</h5>
+            <p class="card-text" style="color:whitesmoke;">Java Full Stack training at Jspiders is a comprehensive program designed to equip students with the necessary skills and knowledge to become proficient in developing full-fledged web applications using Java technologies. This training is specifically tailored to create well-rounded professionals capable of handling both front-end and back-end development tasks.</p>
+            <p class="card-text" style="color:whitesmoke;">Duration: march 2021 to Aug 2021</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3 bg-color project-hover">
+      <div class="row g-0">
+        
+        <div class="col-md-8 col-lg-9 col-sm-6 col-11">
+          <div class="card-body">
+            <h5 class="card-title p-3" style="color:whitesmoke; text-align: center; font-weight: 700; font-size:x-large;">Fullstack Web Development</h5>
+            <p class="card-text" style="color:whitesmoke;">I am doing Fullsack web Development course at Newton School. i have learnt DSA and for Frontend i am learning html, css, javascript, react</p>
+            <p class="card-text" style="color:whitesmoke;">Duration: Oct 2022 to Aug 2023</p>
+            <p class="card-text" style="color:whitesmoke;">Project: MovieClique</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-sm-6 col-11 d-flex justify-content-center align-items-center training-img p-0">
+          <img src="newton.jpg" class="img-fluid rounded p-2 " alt="...">
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+</section>
+
+<section id="internships">
+   <div class="container mt-3 internship">
+    <div>
+      <h2 style="text-align: center;" class="heading-text"> 
+          Internship
+      </h2>
+    </div>
+
+    <div class="card mb-3 bg-color ">
+      <div class="row g-0">
+        <div class="col-md-4 col-lg-3 col-sm-6 col-11 training-img p-0">
+          <img src="delloite_.jpg" class="img-fluid rounded-start p-1 internship-img mb-2" alt="...">
+          <img src="amanDeloitte.jpg" class="img-fluid rounded-start p-1 internship-img" alt="...">
+        </div>
+        <div class="col-md-8 col-lg-9 col-sm-6 col-11">
+          <div class="card-body">
+            <h5 class="card-title p-3" style="color:whitesmoke; text-align: center; font-weight: 700; font-size:x-large;">SAP Abap Developer</h5>
+            <p class="card-text" style="color:whitesmoke;">I did my internship in SAP as Abap Developer at Deloitte, Banglore</p>
+            <p class="card-text" style="color:whitesmoke;">During my internship at Deloitte as a SAP ABAP Developer and Deployment Specialist, I had the incredible opportunity to immerse myself in the world of SAP technology and gain hands-on experience in the development and deployment of various objects.</p>
+            <p class="card-text" style="color:whitesmoke;">One of the highlights of my internship was being involved in the development of various ABAP objects to meet the specific requirements of clients. These objects included custom reports, enhancements to existing programs, user-exits, BAPIs (Business Application Programming Interfaces), and various other ABAP-based solutions. Working on real-world projects with experienced developers enabled me to refine my coding skills and gain a deep understanding of ABAP's capabilities and limitations.</p>
+            <p class="card-text" style="color:whitesmoke;">In addition to technical skills, my internship at Deloitte emphasized the significance of teamwork and collaboration. I actively participated in cross-functional teams, working closely with functional consultants, project managers, and quality assurance teams to deliver comprehensive SAP solutions to clients. These collaborative efforts not only enhanced my technical expertise but also honed my ability to work effectively in diverse and dynamic environments.</p>
+            <p class="card-text" style="color:whitesmoke;">Duration: Sep 2021 to Sep 2022.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </div>
+</section>
+
+<section id="projects">
+  <div class="container project mt-3">
+    <div>
+      <h2 style="text-align: center;" class="heading-text"> 
+          Projects
+      </h2>
+    </div>
+
+    <div class="card mb-3 bg-color project-hover">
+      <div class="row g-0">
+        <div class="col-md-4 col-lg-3 col-sm-6 col-11 d-flex justify-content-center align-items-center flex-column">
+          <img src="searchMovies.jpg" class="img-fluid rounded-start p-2 internship-img mb-2" alt="...">
+          <img src="Screenshot (907).png" class="img-fluid rounded-start p-1 internship-img mb-2" alt="...">
+          <img src="moviePoster.jpg" class="img-fluid rounded-start p-2 internship-img mb-2" alt="...">
+          
+        </div>
+        <div class="col-md-8 col-lg-9 col-sm-6 col-11">
+          <div class="card-body">
+            <h5 class="card-title p-3" style="color:whitesmoke; text-align: center; font-weight: 700; font-size:x-large;">MovieClique</h5>
+            <p class="card-text" style="color:whitesmoke;">"MovieClique" is an innovative and user-friendly movie application that leverages the power of the TMDB API to provide an extensive collection of movies. The application allows users to explore and discover movies based on specific properties, manage favorites, search for movies, and sort them by rating.</p>
+            <p class="card-text" style="color:whitesmoke;">project's features:</p>
+            <p class="card-text" style="color:whitesmoke;">I. TMDB API Integration: MovieClique seamlessly integrates with the TMDB (The Movie Database) API, ensuring access to a vast library of movies. The API connection allows the application to fetch up-to-date movie information, including titles, genres, release dates, ratings, and more</p>
+            <p class="card-text" style="color:whitesmoke;">II. Movie Search: The application offers a powerful search functionality that allows users to find movies quickly. By entering keywords, movie titles, or actors' names, users can instantly retrieve relevant movie suggestions, facilitating a smooth browsing experience.</p>
+            <p class="card-text" style="color:whitesmoke;">III. Sorting by Rating: To assist users in finding highly-rated movies, MovieClique provides the option to sort the movie collection based on ratings. Users can sort movies in ascending or descending order, allowing them to explore the most popular or critically acclaimed titles effortlessly.</p>
+            <p class="card-text" style="color:whitesmoke;">IV. Favorite List: MovieClique enables users to create and manage a personalized list of favorite movies. With just a single click, users can add or remove movies from their favorites list, making it convenient to keep track of films they love..</p>
+            <p class="card-text" style="color:whitesmoke;">Skills: Html, css, JavaScript</p>
+            <a href="https://kramans763.github.io/MovieClique/" target="_blank"><button type="button" class="btn btn-primary btn-sm m-2 button-section">Project Link</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+<section id="skills">
+  <div class="container skill mt-5 p-4">
+    <div style="text-align: center;">
+        <h2 class="heading-text">Skills</h2>
+    </div>
+    
+    <div class="row mt-2 p-2  skilldiv">
+      
+      
+        <div class="card p-2 item m-1 bg-color" style="width: 14rem;">
+          <img src="dsa.png" class="card-img-top rounded-2 boxshadow" style="height:7rem;">
+          <div class="card-body">
+            
+          </div>
+        </div>
+      
+
+      
+        <div class="card p-2 item m-1 bg-color" style="width: 14rem;">
+          <img src="js.jpg" class="card-img-top boxshadow" alt="..." style="height:7rem;">
+          <div class="card-body">
+            
+          </div>
+        </div>
+      
+
+      
+        <div class="card p-2 item m-1 bg-color" style="width: 14rem;">
+          <img src="java.png" class="card-img-top boxshadow" alt="..." style="height:7rem;">
+          <div class="card-body">
+            
+          </div>
+        </div>
+      
+
+      
+        <div class="card p-2 item m-1 bg-color" style="width: 14rem;">
+          <img src="raect.jpg" class="card-img-top boxshadow"  alt="..." style="height:7rem;">
+          <div class="card-body">
+            
+          </div>
+        </div>
+      
+
+      
+        <div class="card p-2 item m-1 bg-color" style="width: 14rem;">
+          <img src="htmlcss.jpg" class="card-img-top boxshadow" alt="..." style="height:7rem;">
+          <div class="card-body">
+            
+          </div>
+        </div>
+      
+
+     
+        
+      </div>
+      
+
+
+    
+ </div>
+</section>
+
+
+
+<section id="hobbies">
+  <div class="container mt-3 hobby">
+    <div>
+      <h2 style="text-align: center;" class="heading-text"> 
+          Hobbies
+      </h2>
+    </div>
+
+    <div class="row d-flex justify-content-center ">
+      <div class="col-lg-3 col-md-4 col-sm-11 col-11 bg-color">
+        <div class="card p-3 bg-color" style="width: 14rem;">
+          
+          <img src="travelling.jpg" class="card-img-top" alt="..." style="height:9rem;">
+        
+          <div class="card-body p-1">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-11 col-11 ">
+        <div class="card p-3 bg-color" style="width: 14rem;">
+          
+          <img src="music.jpg" class="card-img-top" alt="..." style="height:9rem;">
+         
+          <div class="card-body p-1">
+              
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-11 col-11 ">
+        <div class="card p-3 bg-color" style="width: 14rem;">
+          
+          <img src="riding.jpg" class="card-img-top" alt="..." style="height:9rem;">
+          
+          <div class="card-body p-1">
+              
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+   
+  </div>
+</section>
+
+<section id="footer">
+  <nav class="navbar navbar-expand-lg footer mt-3">
+    <div class="container-fluid d-flex justify-content-center">
+      <div>
+         @amankumarsingh
+      </div>
+      
+    </div>
+  </nav>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------>
+
+
+
