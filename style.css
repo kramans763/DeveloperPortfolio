@@ -27,7 +27,19 @@ body{
     color:antiquewhite;
 }
 
+/* .background-img{
+    height:20em;
+    overflow: hidden;
+    width:100%;
+    margin-left:0%;
+    margin-right: 0%;
+    background-image: url("backgroundimage.jpg");
+}
 
+.background-img img{
+    height:100%;
+    width:100%;
+} */
 
 .aboutme{
     padding:20px;
